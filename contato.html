@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, max-scale=1.0">
+    <!--Título-->
+    <title>PORTAL NHL BRASIL</title>
+    <link rel="stylesheet" href="style.css"> <!-- Arquivo css externo -->
+</head>
+<body>
+    <header>
+        <!--Cabeçalho-->
+        <h1>PORTAL NHL BRASIL</h1>
+        <nav>
+            <ul>
+                <li><a href="index copy.html">Página Inicial</a></li>
+                <li><a href="Historia_NFL.html">História da NHL</a></li>
+                <li><a href="Regras_NFL.html">Sou inciante</a></li>
+                <li><a href="Times.html">Times</a></li>
+                <li><a href="Classificação.html">Classificação</a></li>
+                <li><a href="Schedule.html">Calendário de Jogos</a></li>
+                <li><a href="Membros.html">Seja Membro</a></li>
+            </ul>
+         </nav>
+    </header>
+    <p id="p1">
+        A casa da NHL no Brasil.
+        </p>
+   <!--Formulário-->
+    <h1>Sugestões/Contato</h1>
+    <p>Sentiu falta de algo no Portal?<br>
+        Gostaria de realizar contato ou patrocinar?<br>
+        Utilize o campo abaixo.
+    </p>
+
+    <form action="processa_formulario.php" method="post">
+        <label for="nome">Nome:</label>
+        <input type="text" id="nome" name="nome" required><br>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required><br>
+
+        <label for="assunto">Assunto:</label>
+        <select id="assunto" name="assunto" >
+                <option value="contato">Contato</option>
+                <option value="patrocinar">patrocinar</option>
+        </select><br>
+        
+        <!--Botão-->
+        <label for="msg">Mensagem:</label><br>
+        <textarea id="msg" name="message" cols="50" rows="5"></textarea><br>
+        <button type="submit">Enviar</button>
+    </form>
+    
+
+
+
+button:hover{background-color: rgb(68, 68, 199);color: white;} 

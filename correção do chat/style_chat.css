@@ -1,0 +1,155 @@
+/* RESET */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  line-height: 1.6;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: #000;
+  background-color: #f4f4f4;
+}
+
+/* HEADER */
+header {
+  padding: 20px;
+  background-color: #1d1b1b;
+  color: antiquewhite;
+  text-align: center;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.6);
+}
+
+header h1 {
+  font-size: 2.5rem;
+  margin: 10px 0;
+}
+
+header nav ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px;
+  list-style: none;
+  padding: 0;
+  margin-top: 10px;
+}
+
+header nav ul li a {
+  color: antiquewhite;
+  text-decoration: none;
+  font-weight: bold;
+  padding: 5px 10px;
+  background-color: #333;
+  border-radius: 4px;
+}
+
+header nav ul li a:hover {
+  text-decoration: underline;
+  background-color: #555;
+}
+
+/* CHAMADA */
+#p1 {
+  background-color: #8B0000;
+  color: #fff;
+  text-align: center;
+  font-weight: bold;
+  padding: 15px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.65);
+}
+
+/* NOTÍCIAS */
+#noticias {
+  margin: 20px auto;
+  border: 1px solid #fff;
+  padding: 20px;
+  background-color: rgb(157, 169, 169);
+  width: 90%;
+  max-width: 1000px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.65);
+  text-align: center;
+}
+
+#noticias h2 {
+  margin-bottom: 20px;
+  font-size: 2rem;
+}
+
+#noticias ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  padding: 0;
+}
+
+#noticias ul li {
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
+  width: 100%;
+  max-width: 300px;
+  padding: 15px;
+  list-style: none;
+  text-align: center;
+}
+
+#noticias ul li img {
+  width: 100%;
+  height: auto;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+#noticias ul li a {
+  text-decoration: none;
+  color: #000;
+  font-weight: bold;
+  display: block;
+  margin-bottom: 5px;
+}
+
+#noticias ul li a:hover {
+  color: #001eff;
+  text-decoration: underline;
+}
+
+/* RODAPÉ */
+footer {
+  text-align: center;
+  background-color: #e0e0e0;
+  padding: 20px;
+  margin-top: 40px;
+}
+
+footer .social a {
+  display: inline-block;
+  margin: 5px 10px;
+  text-decoration: none;
+  color: #000;
+  font-weight: bold;
+}
+
+footer .social a:hover {
+  color: #001eff;
+  text-decoration: underline;
+}
+
+/* RESPONSIVO */
+@media (max-width: 600px) {
+  header h1 {
+    font-size: 1.8rem;
+  }
+
+  #noticias ul {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  #noticias ul li {
+    width: 90%;
+  }
+}

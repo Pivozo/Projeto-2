@@ -1,0 +1,107 @@
+/*CSS RESET*/
+* {
+   margin: 0;
+   padding: 0;
+}
+
+body {
+   line-height: 1.6;
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
+   color: black;
+}
+
+/*HEADER CSS*/
+   header {
+   padding: 20px;
+   background-color: rgb(29, 27, 27);
+   color: antiquewhite;
+   text-align: center;
+   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.6);
+   }
+
+   header h1 {
+   font-size: 50px;
+   margin-top: 10px;
+   margin-bottom: 10px;
+   }
+
+   header nav ul li {
+   display: inline;
+   margin-right: 10px;
+   }
+
+   header nav ul li a {
+   color: antiquewhite;
+   text-decoration: none;
+   font-weight: bold;
+   }
+
+   header nav ul li a:hover {
+   text-decoration: underline;
+   }
+
+/*CHAMADA DO SITE - BARRA VERMELHA*/
+   #p1 {
+   background-color: brown;
+   text-align: center;
+   color: antiquewhite;
+   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.65);
+   font-weight: bold;
+   }
+
+/*CORPO DO SITE*/
+   /*AJUSTE IMAGENS*/
+      ul li img {
+   max-width: 300px;
+   max-height: 300px;
+   width: auto;
+   height: auto;
+   margin-top: 20px;
+      }
+
+   /*AJUSTE TITULO*/
+      #hA {
+      margin-bottom: 20px;
+      }
+
+   /*CAMPO DE NOTICIAS*/
+      #noticias {
+      margin: 20px auto; /* Centraliza horizontalmente */
+      border: 1px solid rgb(255, 255, 255);
+      padding: 20px;
+      background-color: rgb(157, 169, 169);
+      width: 90%; /* Agora a largura é responsiva */
+      max-width: 500px; /* Não cresce demais em telas grandes */
+      min-width: 280px; /* Evita ficar pequeno demais */
+      text-align: center;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.65);
+      border-radius: 10px;
+      box-sizing: border-box;
+      }
+
+         #noticias ul li a{
+   text-decoration: none;
+   color: black;
+   font-weight: bolder;
+         }
+
+         #noticias ul li a:hover {
+   color: rgb(0, 30, 255);
+   text-decoration: underline;
+         }
+
+/*RODAPÉ*/
+   footer {
+   text-align: center;
+   }
+
+   footer a {
+   text-decoration: none;
+   color: black;
+   font-weight: bolder;
+   }
+
+   footer a:hover {
+    color: rgb(0, 30, 255);
+   text-decoration: underline;
+   }
