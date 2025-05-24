@@ -6,8 +6,7 @@
 
 body {
    line-height: 1.6;
-   font-family: Verdana, Geneva, Tahoma, sans-serif;
-   color: black;
+   font-family: Tahoma, Geneva, Verdana, sans-serif
 }
 
 /*HEADER CSS*/
@@ -51,16 +50,17 @@ body {
 
 /*CORPO DO SITE*/
    /*AJUSTE IMAGENS*/
-      ul li img {
+      article img {
    max-width: 300px;
    max-height: 300px;
    width: auto;
    height: auto;
    margin-top: 20px;
+   border-radius: 4px;
       }
 
    /*AJUSTE TITULO*/
-      #hA {
+      #header h2 {
       margin-bottom: 20px;
       }
 
@@ -79,13 +79,17 @@ body {
       box-sizing: border-box;
       }
 
-         #noticias ul li a{
+      #noticias article{
+         margin-bottom: 20px;
+      }
+
+         #noticias article h3 a{
    text-decoration: none;
    color: black;
    font-weight: bolder;
          }
 
-         #noticias ul li a:hover {
+         #noticias article h3 a:hover {
    color: rgb(0, 30, 255);
    text-decoration: underline;
          }
